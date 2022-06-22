@@ -1,0 +1,47 @@
+.taskForm-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.task-input{
+
+	border: none;
+	box-shadow: 0 0 5px black;
+	border-radius: 4px 0 0 4px;
+	width: 353px;
+	font-size: 18px;
+	padding: 1rem;
+	outline: none;
+    
+}
+.task-button{
+	padding: 1rem;
+	border: none;
+	box-shadow: 0 0 5px black;
+	border-radius: 0 4px 4px 0;
+	font-size: 18px;
+	font-family: Roboto, sans-serif;
+	cursor: pointer;
+	background: #C33764;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-transform: capitalize;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+@media (max-width: 769px) { 
+  .task-button{
+		width: 100%;
+		margin-top: 1rem;
+		border-radius: 4px;
+		outline: none;
+	}
+	.task-input{
+		border-radius: 4px;
+		width: 100%;
+	}
+	.task-input::placeholder{
+		text-align: center;
+	}
+}

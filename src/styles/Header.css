@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color:white ;
+
+}
+@media (max-width: 650px) { 
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+        border-radius: 25px;
+    }
+    .title{
+        backdrop-filter: blur(2px);
+        width: 90%;
+    }
+    
+}
+span{
+    color: #61DBFB;
+    text-shadow: 2px 2px 2px black;
+
+}
