@@ -2,6 +2,7 @@
     text-align: center;
     text-shadow: 2px 2px 2px black;
     color:white ;
+    backdrop-filter: blur(4px);
 
 }
 @media (max-width: 650px) { 
@@ -12,8 +13,8 @@
         border-radius: 25px;
     }
     .title{
-        backdrop-filter: blur(2px);
         width: 90%;
+        backdrop-filter: blur(2px);
     }
     
 }
