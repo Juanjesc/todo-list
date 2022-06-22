@@ -29,6 +29,7 @@
 	text-transform: capitalize;
 	color: white;
 	text-shadow: 2px 2px 2px black;
+	user-select: none;
 }
 @media (max-width: 769px) { 
   .task-button{

@@ -3,6 +3,7 @@
     text-shadow: 2px 2px 2px black;
     color:white ;
     backdrop-filter: blur(4px);
+    user-select: none;
 
 }
 @media (max-width: 650px) { 

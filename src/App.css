@@ -43,6 +43,7 @@ html,body{
   font-size: 25px;
   font-family: Roboto, sans-serif;
   margin: 20px 0;
+  user-select: none;
 
 }
 @media (max-width: 650px) { 
