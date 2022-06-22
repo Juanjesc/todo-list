@@ -40,6 +40,7 @@ function TodoList() {
 			}
 			return tarea;
 		});
+		localStorage.setItem("localTasks", JSON.stringify(tareasActualizadas))
 		setTareas(tareasActualizadas);
 	}
 	return (
