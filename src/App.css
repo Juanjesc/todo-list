@@ -15,7 +15,7 @@ html,body{
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url(img/japan-background.jpg);
+  background-image: url(img/backgroudn.png);
  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ html,body{
   padding: 25px;
   margin: 40px;
   border-radius: 26px;
-  background-color: rgba(1, 1, 1, .5);
+  background-color: rgba(43, 0, 52, 0.9);
   box-shadow: 0px 0px 10px white;
 
  
